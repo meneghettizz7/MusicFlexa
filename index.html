@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicFlexa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">♫</div>
+        <h1>Music<span>Flexa</span></h1>
+        <p>Compartilhe suas ideias musicais com o Flexa 🎧</p>
+    </header>
+
+    <main>
+
+        <section class="form">
+            <h2>Nova ideia</h2>
+            <p>Coloque sua próxima música no mural.</p>
+
+            <input id="nome" placeholder="Nome da música">
+            <input id="artista" placeholder="Nome do artista">
+
+            <textarea
+                id="descricao"
+                placeholder="Descreva sua ideia..."
+            ></textarea>
+
+            <button id="adicionar">
+                ＋ Adicionar ao mural
+            </button>
+        </section>
+
+        <section class="mural-area">
+
+            <div class="titulo">
+                <div>
+                    <h2>Mural</h2>
+                    <p>Ideias compartilhadas</p>
+                </div>
+
+                <div class="contador">
+                    <span id="quantidade">0</span>
+                </div>
+            </div>
+
+            <div id="mural"></div>
+
+        </section>
+
+    </main>
+
+         
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
